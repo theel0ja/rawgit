@@ -10,12 +10,12 @@ module.exports = {
   baseRepoUrl: 'https://raw.githubusercontent.com',
 
   // Domain to use for CDN requests to RawGit.
-  cdnDomain: 'cdn.rawgit.com',
+  cdnDomain: 'rawgit-cdn.theel0ja.info',
 
   // GitHub "username/repo" from which RawGit's own static assets should be
   // loaded via the CDN. Set this to a falsy value to disable loading static
   // assets from the CDN.
-  // cdnRepo: 'rgrove/rawgit',
+  // cdnRepo: 'theel0ja/rawgit',
 
   // Git tag that points to the GitHub commit from which RawGit's own static
   // assets should be loaded via the CDN. Set this to a falsy value to disable
@@ -23,7 +23,7 @@ module.exports = {
   // cdnTag: 'cdn-20180423',
 
   // Domain to use for dev requests to RawGit.
-  devDomain: 'rawgit.com',
+  devDomain: 'rawgit.theel0ja.info',
 
   // Blacklist of file extensions that will always be redirected to GitHub, even
   // when requested via the CDN. Typically extensions are on this list because
